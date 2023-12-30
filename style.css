@@ -1,0 +1,67 @@
+body, h1, h2, h3, h4, .p1, .p2, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Volkhov', serif;
+} 
+ body {
+    background-color:white;
+ }
+
+ .H1 {
+    background-color: #333;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+ }
+
+ .H1 h1{
+    font-size: 30px;
+ }
+
+ nav ul{
+    list-style: none;
+    margin: 30px;
+ }
+ nav li{
+    display: inline;
+    margin-right: 50px;
+    margin-top: 50px;
+ }
+
+ nav a{
+    color: aliceblue;
+    text-decoration: none;
+ }
+
+ main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    padding-top: 10px;
+    
+}
+
+.episode1{
+    margin-bottom: 20px;
+}
+.episode1 h2, h3, h4, .p1, .p2, video{
+    margin: 20px;
+    margin-left: 3px;
+}
+
+footer{
+    text-align: center;
+    padding: 8px 0;
+}
+
+
+h3{
+   color: grey;
+   font-weight: 5px;
+}
+.p3, .p4, .p5, .p7, .p8 {
+   color: grey;
+}
+.p9, .p10 {
+   color: black;
+}
